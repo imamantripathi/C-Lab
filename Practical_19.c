@@ -3,7 +3,7 @@ int prime(int num);
 void main()
 {
     int number = 0;
-    printf("Enter the Number to check");
+    printf("Enter the Number to check: ");
     scanf("%d", &number);
     int check = prime(number);
     if (check == 0)
